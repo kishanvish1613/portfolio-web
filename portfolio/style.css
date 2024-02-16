@@ -17,7 +17,7 @@ html, body{
     width: 100%;
     height: 100%;
     background-color: #0f172a;
-    color: #ffffff;
+    color: lavender;
     font-family: SF Pro Display;
     /* font-family: "Rubik"; */
 }
@@ -265,7 +265,8 @@ a.clicked {
 
 .about-section {
     width: 100%;
-    height: 130vh;
+    height: 120vh;
+    overflow: hidden;
     /* border: 1px solid orange; */
     position: relative;
 }
@@ -276,12 +277,131 @@ a.clicked {
     justify-content: center;
     align-items: center;
     top: 28%;
-    left: 8%;
-    font-size: 0.8rem;
+    left: 13%;
+    font-size: 0.4rem;
     transition: font-size 0.5s ease;
     /* border: 1px solid orange; */
 }
 
 #about-img {
-    width: 30px;
+    width: 14px;
+}
+
+#about-info-container {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 90%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1.5rem;
+    color: #144e58;
+}
+
+#git-replit-linkd-section {
+    overflow: hidden;
+    position: absolute;
+    top: 78.5%;
+    left: 22.2%;
+    color: #144e58;
+    font-size: 1.5rem;
+    height: max-content;
+    z-index: 999;
+    opacity: 0;
+}
+
+/* projects */
+
+.project-section-box {
+    width: 100%;
+    height: 14vh;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+#project-text-box {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    display: flex;
+    font-size: 0.4rem;
+    transition: font-size 0.5s ease;
+}
+
+#project-img {
+    width: 14px;
+}
+
+.display-project1 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-box1 {
+    position: absolute;
+    top: 6%;
+    right: -90%;
+    width: 90%;
+    height: 80vh;
+    border-radius: 15px;
+    opacity: 0;
+    background-color: #081122;
+}
+
+.display-project2 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-box2 {
+    position: absolute;
+    top: 6%;
+    right: -90%;
+    width: 90%;
+    height: 80vh;
+    border-radius: 15px;
+    opacity: 0;
+    background-color: #081122;
+}
+
+.display-project3 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-box3 {
+    position: absolute;
+    top: 6%;
+    right: -90%;
+    width: 90%;
+    height: 80vh;
+    border-radius: 15px;
+    opacity: 0;
+    background-color: #081122;
+}
+
+
+
+
+
+
+
+/* .spacer */
+.spacer {
+    width: 100%;
+    height: 100vh;
+    background-color: #0f172a;
 }
