@@ -63,7 +63,7 @@ function projectShowcaseBox1 () {
       trigger: ".display-project1",
       start: "top 91%",
       end: "100% 100%",
-      markers: true,
+      //markers: true,
       scrub: 1,
     },
     right: 70,
@@ -78,7 +78,7 @@ function projectShowcaseBox2 () {
       trigger: ".display-project2",
       start: "top 91%",
       end: "100% 100%",
-      markers: true,
+      //markers: true,
       scrub: 1,
     },
     right: 70,
@@ -93,15 +93,13 @@ function projectShowcaseBox3 () {
       trigger: ".display-project3",
       start: "top 91%",
       end: "100% 100%",
-      markers: true,
+      //markers: true,
       scrub: 1,
     },
     right: 70,
     opacity: 1,
   });
 }
-
-
 
 aboutTextWithImgAni();
 
@@ -114,4 +112,3 @@ projectShowcaseBox1();
 projectShowcaseBox2();
 
 projectShowcaseBox3();
-
