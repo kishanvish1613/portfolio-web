@@ -1,0 +1,241 @@
+@media only screen and (max-width: 600px) {
+    /* CSS rules specific to small screens */
+    #hero-section  {
+        height: 108vh;
+    }
+
+    #profile-image-section {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #profile-img {
+        top: 30%;
+        left: 43.1%;
+    }
+
+    #quick-nav-text {
+        top: 5%;
+        left: 35.5%;
+    }
+
+    #main-profile-img {
+        top: 45.4%;
+        left: 45.2%;
+    }
+
+    #welcome-text-box {
+        font-size: 4rem;
+    }
+
+    #name-text-box {
+        width: 60%;
+    }
+
+    #download-button-box {
+        width: 29%;
+        height: 7vh;
+    }
+
+    #about-text {
+        height: 2vh;
+        width: max-content;
+        top: 28%;
+        left: 13%;
+    }
+
+    #about-info-container {
+        top: 40%;
+        left: 5%;
+    }
+
+    #about-info-container h1 {
+        font-size: 1.8rem;
+    }
+
+    #git-replit-linkd-section {
+        top: 86.5%;
+        left: 9%;
+    }
+
+    #git-replit-linkd-section h1{
+        font-size: 1.8rem;
+    }
+
+    .project-box1 {
+        top: 6%;
+        right: -50%;
+        width: 80%;
+    }
+
+    .project-box2 {
+        top: 6%;
+        right: -50%;
+        width: 80%;
+    }
+
+    .project-box3 {
+        top: 6%;
+        right: -50%;
+        width: 80%;
+    }
+
+    .micro-project-display {
+        width: 20%;
+        height: 60vh;
+        padding-left: 30px;
+        flex-direction: column;
+    }
+
+    .box-project-section {
+        width: 50%;
+        height: 20vh;
+        font-size: 0.5rem;
+    }
+
+    .what-i-know-box {
+        gap: 2px;
+        padding: 5px;
+    }
+
+    .what-i-know-box div{
+        border-radius: 15px;
+        display: flex;
+        font-size: 0.8rem;
+        flex-direction: column;
+    }
+
+    .contact-info-section-mini a {
+        font-size: 0.8rem;
+    }
+
+    .contact-info-box i {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CSS rules specific to medium screens */
+    #hero-section  {
+        height: 108vh;
+        border: 1px solid yellow;
+    }
+
+    #profile-image-section {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #profile-img {
+        top: 30%;
+        left: 43.1%;
+    }
+
+    #quick-nav-text {
+        top: 5%;
+        left: 35.5%;
+    }
+
+    #main-profile-img {
+        top: 45.4%;
+        left: 45.2%;
+    }
+
+    #welcome-text-box {
+        font-size: 4rem;
+    }
+
+    #name-text-box {
+        width: 60%;
+    }
+
+    #download-button-box {
+        width: 29%;
+        height: 7vh;
+    }
+
+    #about-text {
+        height: 2vh;
+        width: max-content;
+        top: 28%;
+        left: 13%;
+    }
+
+    #about-info-container {
+        top: 40%;
+        left: 5%;
+    }
+
+    #about-info-container h1 {
+        font-size: 1.8rem;
+    }
+
+    #git-replit-linkd-section {
+        top: 86.5%;
+        left: 9%;
+    }
+
+    #git-replit-linkd-section h1{
+        font-size: 1.8rem;
+    }
+
+    .project-box1 {
+        top: 6%;
+        right: -50%;
+        width: 80%;
+    }
+
+    .project-box2 {
+        top: 6%;
+        right: -50%;
+        width: 80%;
+    }
+
+    .project-box3 {
+        top: 6%;
+        right: -50%;
+        width: 80%;
+    }
+
+    .micro-project-display {
+        width: 20%;
+        height: 60vh;
+        padding-left: 30px;
+        flex-direction: column;
+    }
+
+    .box-project-section {
+        width: 40%;
+        height: 20vh;
+        font-size: 0.5rem;
+    }
+
+    .what-i-know-box {
+        gap: 2px;
+        padding: 5px;
+    }
+
+    .what-i-know-box div{
+        border-radius: 15px;
+        display: flex;
+        font-size: 1.2rem;
+    }
+
+    .contact-info-section-mini a {
+        font-size: 1.2rem;
+    }
+
+    .contact-info-box i {
+        font-size: 1.4rem;
+    }
+}
+
+/* Large Screen (Desktops) */
+@media only screen and (min-width: 1025px) {
+    /* CSS rules specific to large screens */
+    #hero-section  {
+        border: 1px solid rgb(255, 0, 0);
+    }
+}
