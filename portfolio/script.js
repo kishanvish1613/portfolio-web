@@ -1,17 +1,15 @@
 function aboutTextWithImgAni() {
-  gsap.to("#about-text", {
+  gsap.from("#about-text", {
     duration: 2,
     scrollTrigger: {
       trigger: ".about-section",
-      start: "top 65.4%",
-      end: "10% 80%",
+      start: "top 95%",
+      end: "5% 80%",
       //markers: true,
       scrub: 1,
     },
-    scale: 4.5,
-    // ease: "bounce",
-    repeat: 0,
-    left: 130,
+    scale: 5,
+    opacity: 0,
   });
 }
 
@@ -32,27 +30,25 @@ function aboutTextAnimation() {
     stagger: 0.9,
     scrollTrigger: {
       trigger: ".about-section",
-      start: "top 45%",
+      start: "top 70%",
       end: "90% 100%",
-      // markers: true,
+      //markers: true,
       scrub: 1,
     },
   });
 }
 
 function projectTextAnimation() {
-  gsap.to("#project-text-box", {
+  gsap.from("#project-text-box", {
     duration: 2,
     scrollTrigger: {
       trigger: ".project-section-box",
-      start: "top 91%",
+      start: "top 93%",
       end: "10% 100%",
       //markers: true,
       scrub: 1,
     },
-    scale: 4.5,
-    repeat: 0,
-    left: 150,
+    scale: 2,
   });
 }
 
@@ -66,7 +62,7 @@ function projectShowcaseBox1() {
       //markers: true,
       scrub: 1,
     },
-    right: 70,
+    right: 20,
     opacity: 1,
   });
 }
@@ -81,7 +77,7 @@ function projectShowcaseBox2() {
       //markers: true,
       scrub: 1,
     },
-    right: 70,
+    right: 20,
     opacity: 1,
   });
 }
@@ -96,55 +92,51 @@ function projectShowcaseBox3() {
       //markers: true,
       scrub: 1,
     },
-    right: 70,
+    right: 20,
     opacity: 1,
   });
 }
 
-function moreProjectSectionAnimation() {
-  gsap.from(".box-project-section", {
-    duration: 2,
-    scrollTrigger: {
-      trigger: ".box-project-section",
-      start: "top 95%",
-      end: "100% 100%",
-      //markers: true,
-      scrub: 1,
-    },
-    scale: 1.2,
-    opacity: 0,
-  });
-}
-
 function whatIKnowAnimation() {
-  gsap.to("#project-text-box-1", {
+  gsap.from("#project-text-box-1", {
     duration: 2,
     scrollTrigger: {
       trigger: ".project-section-box-1",
-      start: "top 93%",
-      end: "90% 100%",
+      start: "top 90%",
+      end: "10% 100%",
       //markers: true,
       scrub: 1,
     },
-    scale: 4.5,
-    repeat: 0,
-    left: 180,
+    scale: 2,
   });
 }
 
+// function moreProjectSectionAnimation() {
+//   gsap.from(".box-project-section", {
+//     duration: 2,
+//     scrollTrigger: {
+//       trigger: ".box-project-section",
+//       start: "top 95%",
+//       end: "100% 100%",
+//       //markers: true,
+//       scrub: 1,
+//     },
+//     scale: 1.2,
+//     opacity: 0,
+//   });
+// }
+
 function contectAnimation() {
-  gsap.to("#project-text-box-2", {
+  gsap.from("#project-text-box-2", {
     duration: 2,
     scrollTrigger: {
       trigger: ".project-section-box-2",
-      start: "top 93%",
-      end: "90% 100%",
+      start: "top 98%",
+      end: "10% 100%",
       //markers: true,
       scrub: 1,
     },
-    scale: 4.5,
-    repeat: 0,
-    left: 140,
+    scale: 2,
   });
 }
 
@@ -160,7 +152,7 @@ projectShowcaseBox2();
 
 projectShowcaseBox3();
 
-moreProjectSectionAnimation();
+// moreProjectSectionAnimation();
 
 whatIKnowAnimation();
 
