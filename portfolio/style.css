@@ -493,6 +493,23 @@ a.clicked {
   overflow: hidden;
 }
 
+.more-project-text {
+  width: 100%;
+  height: max-content;
+}
+
+#animated-text-portfolio p {
+  font-size: 3vw;
+}
+
+#animated-text-Notepad-Desktop-App p {
+  font-size: 1.3vw;
+}
+
+.animated-section {
+  user-select: none;
+}
+
 #project-text-box-1 {
   position: absolute;
   top: 71%;
