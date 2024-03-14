@@ -724,14 +724,14 @@ a.clicked {
   }
 
   #about-info-container h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   #git-replit-linkd-section {
-    top: 85%;
-    left: 5%;
+    top: 73%;
+    left: 4%;
     /* opacity: 1; */
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   #project-img {
