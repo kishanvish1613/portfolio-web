@@ -294,7 +294,7 @@ a.clicked {
   top: 6%;
   right: -90%;
   width: 97%;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,7 +354,21 @@ a.clicked {
   justify-content: space-between;
   align-items: end;
   flex-direction: column;
-  overflow: hidden;
+  position: relative;
+}
+
+.bottom-link {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  bottom: -4%;
+  right: -20.1%;
+  border-radius: 30px 0px 20px 0px;
+  border: 8px solid #0f172a;
 }
 
 .github-link-project {
@@ -377,7 +391,7 @@ a.clicked {
   top: 6%;
   right: -90%;
   width: 97%;
-  height: 80vh;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -413,10 +427,10 @@ a.clicked {
 
 .micro-project-display {
   position: absolute;
-  bottom: 2%;
-  right: 10px;
-  width: 70%;
-  height: 7vh;
+  bottom: -1%;
+  right: -1%;
+  width: 60%;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -424,6 +438,8 @@ a.clicked {
   gap: 15px;
   opacity: 1;
   font-size: 1.1rem;
+  border-radius: 30px 0px 20px 0px;
+  border: 8px solid #0f172a;
 }
 
 /* more-project-section */
@@ -640,593 +656,201 @@ a.clicked {
 }
 
 @media only screen and (max-width: 426px) {
-  #hero-section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  .hero-section-mini {
-    width: 95%;
-    height: 95vh;
-    overflow: hidden;
-    position: relative;
-  }
-
   #background-img-with-vector-img {
     position: absolute;
     width: max-content;
     height: max-content;
-    top: 25%;
-    left: 38%;
+    top: 27%;
+    left: 40%;
     z-index: 9;
   }
 
-  #profile-vector-img {
-    position: absolute;
-    top: 27%;
-    left: 4.5%;
-    z-index: -10;
-  }
-
-  #quick-nav-text {
-    position: absolute;
-    top: -52%;
-    left: -41%;
-  }
-
   #back-groung-img img {
-    width: 25vw;
+    width: 23vw;
   }
 
   #profile-vector-img img {
-    width: 19vw;
+    width: 17vw;
     border-radius: 50%;
-  }
-
-  /* animation hover profile*/
-  .small-circle {
-    position: absolute;
-    top: 2%;
-    right: 4%;
-    width: 2vw;
-    height: 2vh;
-    border-radius: 50%;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    color: #1c9bf7;
   }
 
   #small-img-project {
-    position: absolute;
-    top: 0%;
-    right: 3%;
-    width: 37px;
-    height: 37px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-color: white;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    border-radius: 50%;
+    width: 33px;
+    height: 33px;
   }
 
   #small-img-know {
-    position: absolute;
-    top: 0%;
-    right: 3%;
-    width: 37px;
-    height: 37px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-color: white;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    border-radius: 50%;
+    width: 33px;
+    height: 33px;
   }
 
   #small-img-contact {
-    position: absolute;
-    top: 0%;
-    right: 3%;
-    width: 37px;
-    height: 37px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-color: white;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    border-radius: 50%;
+    width: 33px;
+    height: 33px;
   }
 
   #small-img-project .img-small {
-    width: 5vw;
+    width: 4vw;
   }
 
   #small-img-know .img-small {
-    width: 5vw;
+    width: 4vw;
   }
 
   #small-img-contact .img-small {
-    width: 5vw;
-  }
-
-  #back-groung-img:hover .small-circle {
-    opacity: 1;
-  }
-
-  #back-groung-img:hover #small-img-project {
-    transform: translate(30px, -75px);
-  }
-
-  #back-groung-img:hover #small-img-know {
-    transform: translate(80px, -20px);
-  }
-
-  #back-groung-img:hover #small-img-contact {
-    transform: translate(60px, 50px);
-  }
-
-  /* name-section */
-  #name-section-welcome-download-btn {
-    position: absolute;
-    top: 39%;
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 4vw;
   }
 
   #welcome-section p {
-    font-size: 3rem;
+    font-size: 13vw;
   }
 
   #name-section p {
-    font-size: 1.5rem;
-    position: relative;
-  }
-
-  #download-section {
-    position: absolute;
-    bottom: -80%;
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #download-section #btn {
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 8px;
-    background-color: #172137;
-    font-size: 1.1rem;
-  }
-
-  /* .about-section */
-
-  .about-section {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-  }
-
-  #about-text {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 20%;
-    left: 5%;
-    font-size: 1.1rem;
-    transition: font-size 0.5s ease;
-    opacity: 1;
-    overflow: hidden;
-  }
-
-  #about-img {
-    width: 43px;
-  }
-
-  #about-info-container {
-    position: absolute;
-    top: 30%;
-    left: 5%;
-    width: 90%;
-    height: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 3.5vw;
-    color: #144e58;
-    overflow: hidden;
-  }
-
-  #git-replit-linkd-section {
-    position: absolute;
-    top: 90.5%;
-    left: 5%;
-    color: #144e58;
-    font-size: 3.5vw;
-    height: max-content;
-    z-index: 999;
-    opacity: 0;
-    overflow: hidden;
-  }
-
-  /* projects */
-
-  .project-section-box {
-    width: 100%;
-    height: 14vh;
-    position: relative;
-  }
-
-  #project-text-box {
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    font-size: 1.1rem;
-    display: flex;
-    transition: font-size 0.5s ease;
-  }
-
-  #project-img {
-    width: 38px;
-  }
-
-  .display-project1 {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .project-box1 {
-    position: absolute;
-    top: 6%;
-    right: -90%;
-    width: 90%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    background-color: #010a1b;
-  }
-
-  .left-box {
-    width: 18%;
-    height: 75vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    overflow: hidden;
-  }
-
-  .center-box {
-    width: 60%;
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  .center-box i {
-    font-size: 7rem;
-  }
-
-  .micro-project-display .i-tag {
-    font-size: 1rem;
-  }
-
-  .right-box {
-    width: 18%;
-    height: 75vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    flex-direction: column;
-    overflow: hidden;
-  }
-
-  .top-text {
-    font-size: 2vw;
-  }
-
-  .bottom-text {
-    font-size: 2vw;
-  }
-
-  .github-link-project {
-    width: 100%;
-    height: 5vh;
-    padding: 10px;
-    border-radius: 30px;
-  }
-
-  .display-project2 {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .project-box2 {
-    position: absolute;
-    top: 6%;
-    right: -90%;
-    width: 90%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    background-color: #010a1b;
-  }
-
-  #top-text-porject-2 {
-    font-size: 0.8rem;
-  }
-
-  .display-project3 {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .animated-text p {
-    font-size: 6vw;
-  }
-
-  #animated-text-air p {
     font-size: 5vw;
   }
 
-  .project-box3 {
-    position: absolute;
+  #download-section {
+    bottom: -100%;
+    width: 100%;
+    height: 9vh;
+  }
+
+  #about-img {
+    width: 2.9rem;
+  }
+
+  #abut-t h1 {
+    font-size: 2.7rem;
+  }
+
+  #about-info-container h1 {
+    font-size: 1.8rem;
+  }
+
+  #git-replit-linkd-section {
+    top: 85%;
+    left: 5%;
+    /* opacity: 1; */
+    font-size: 0.9rem;
+  }
+
+  #project-img {
+    width: 2.9rem;
+  }
+
+  #project-text-box h1 {
+    font-size: 2.7rem;
+  }
+
+  .project-box1 {
     top: 6%;
     right: -90%;
     width: 90%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: #010a1b;
-  }
-
-  .micro-project-display {
-    position: absolute;
-    bottom: 2%;
-    right: 10px;
-    width: 70%;
-    height: 7vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    gap: 5px;
-    opacity: 1;
     font-size: 2vw;
   }
 
-  /* more-project-section */
-  .more-project-section {
+  .animated-section {
     width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  }
+
+  .animated-text p {
+    font-size: 9.5vw;
+  }
+
+  .bottom-link {
+    width: 70px;
+    height: 50px;
+    bottom: -4%;
+    right: -42%;
+    border: 5px solid #0f172a;
+  }
+
+  .project-box2 {
+    top: 6%;
+    right: -90%;
+    width: 90%;
+    font-size: 2vw;
+  }
+
+  #bottom-link-2 {
+    bottom: -5%;
+    right: -51%;
+    border: 5px solid #0f172a;
+  }
+
+  .project-box3 {
+    top: 6%;
+    right: -90%;
+    width: 90%;
+    font-size: 2vw;
+    padding: 20px;
+  }
+
+  .center-box #animated-text-air p {
+    font-size: 5vw;
+  }
+
+  .micro-project-display {
+    bottom: -1%;
+    right: -1%;
+    width: 70%;
+    height: 70px;
+    font-size: 1.3vw;
+    padding: 5px;
+    border: 5px solid #0f172a;
+  }
+
+  .micro-project-display .ri-link {
+    font-size: 2vw;
   }
 
   .more-project-mini-section {
     width: 90%;
     height: 60vh;
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 30px;
   }
 
-  .box-project-section {
-    width: 100%;
-    height: 28vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
+  .box-project-section p {
     font-size: 2vw;
-    overflow: hidden;
-    background-color: #010a1b;
   }
 
-  .more-project-section-left {
-    width: 25%;
-    height: 25vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-
-  .more-project-section-center {
-    width: 40%;
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .more-project-section-center i {
-    font-size: 2rem;
-  }
-
-  .more-project-section-right {
-    width: 25%;
-    height: 25vh;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    flex-direction: column;
+  #animated-text-portfolio p {
+    font-size: 9.5vw;
   }
 
   #animated-text-Notepad-Desktop-App p {
-    font-size: 2.8vw;
-  }
-
-  .project-section-box-1 {
-    width: 100%;
-    height: 20vh;
-    position: relative;
-    overflow: hidden;
-  }
-
-  #project-text-box-1 {
-    position: absolute;
-    top: 71%;
-    left: 5%;
-    display: flex;
-    font-size: 1.1rem;
+    font-size: 3vw;
   }
 
   #project-img-1 {
-    width: 43px;
+    width: 2.9rem;
   }
 
-  .what-i-know-section {
-    width: 100%;
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .what-i-know-section-mini {
-    width: 90%;
-    height: 60vh;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .what-i-know-section-mini .what-i-know-box {
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    overflow: hidden;
+  #project-text-box-1 h1 {
+    font-size: 2.7rem;
   }
 
   .what-i-know-box div {
-    width: max-content;
     height: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    background-color: lavender;
-    color: #010a1b;
-    gap: 5px;
+    width: 15vw;
+    font-size: 2.5vw;
     border-radius: 10px;
-    font-size: 0.7rem;
-  }
-
-  .what-i-know-section-mini div img {
-    width: 3vw;
-  }
-
-  .what-i-know-box-add div {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  /* contect-us-section */
-  .project-section-box-2 {
-    width: 100%;
-    height: 10vh;
-    overflow: hidden;
-    position: relative;
-  }
-
-  #project-text-box-2 {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    display: flex;
-    font-size: 1.1rem;
+    flex-direction: column;
   }
 
   #project-img-2 {
-    width: 38px;
+    width: 2.9rem;
   }
 
-  .contact-info-section {
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  .contact-info-section-mini {
-    width: 90%;
-    height: 13vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    background-color: #010a1b;
-    border-radius: 20px;
-    overflow: hidden;
+  #project-text-box-2 h1 {
+    font-size: 2.7rem;
   }
 
   .contact-info-box {
-    width: max-content;
-    height: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    background-color: #0f172a;
-  }
-
-  .contact-info-box a {
-    color: lavender;
-  }
-
-  .contact-info-box i {
-    padding: 2px;
-    font-size: 1wv;
+    width: 20vw;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 3vw;
   }
 }
 
@@ -1235,17 +859,17 @@ a.clicked {
     position: absolute;
     width: max-content;
     height: max-content;
-    top: 21%;
-    left: 43%;
+    top: 22%;
+    left: 45%;
     z-index: 9;
   }
 
   #back-groung-img img {
-    width: 17.5vw;
+    width: 15vw;
   }
 
   #profile-vector-img img {
-    width: 13vw;
+    width: 11vw;
     border-radius: 50%;
   }
 
@@ -1261,7 +885,7 @@ a.clicked {
   }
 
   #name-section p {
-    font-size: 1.6rem;
+    font-size: 4vw;
   }
 
   #about-text {
@@ -1273,65 +897,114 @@ a.clicked {
   }
 
   #about-info-container {
-    font-size: 1rem;
+    font-size: 2vw;
   }
 
   #git-replit-linkd-section {
-    top: 81.5%;
-    left: 15%;
-    font-size: 1rem;
+    top: 79.5%;
+    left: 16.5%;
+    font-size: 2vw;
     opacity: 0;
   }
 
-  .box-project-section {
-    font-size: 1rem;
+  #project-img {
+    width: 59px;
+  }
+
+  #project-text-box h1 {
+    font-size: 6.5vw;
+  }
+
+  .project-box1 {
+    top: 6%;
+    right: -90%;
+    width: 95%;
+    font-size: 2vw;
+  }
+
+  .animated-section {
+    width: 100%;
+  }
+
+  .animated-text p {
+    font-size: 8vw;
+  }
+
+  .bottom-link {
+    width: 90px;
+    height: 60px;
+    bottom: -4%;
+    right: -27%;
+  }
+
+  .project-box2 {
+    top: 6%;
+    right: -90%;
+    width: 95%;
+    font-size: 2vw;
+  }
+
+  #bottom-link-2 {
+    width: 90px;
+    height: 60px;
+    bottom: -5%;
+    right: -32%;
+  }
+
+  .project-box3 {
+    top: 6%;
+    right: -90%;
+    width: 95%;
+    padding: 20px;
+    font-size: 2vw;
+  }
+
+  .center-box #animated-text-air p {
+    font-size: 5vw;
+  }
+
+  .micro-project-display {
+    bottom: -1%;
+    right: -1%;
+    width: 70%;
+    height: 70px;
+    font-size: 1.3vw;
+    padding: 10px;
+    border: 5px solid #0f172a;
+  }
+
+  .more-project-mini-section {
+    width: 90%;
+    height: 60vh;
+    flex-direction: column;
+  }
+
+  #animated-text-portfolio p {
+    font-size: 6vw;
+  }
+
+  #animated-text-Notepad-Desktop-App p {
+    font-size: 3vw;
   }
 
   #project-text-box-1 {
     top: 60%;
   }
 
-  .project-box1 {
-    right: -90%;
-    width: 94.5%;
-    padding: 15px;
+  #project-img-1 {
+    width: 59px;
   }
 
-  .project-box2 {
-    right: -90%;
-    width: 94.5%;
-  }
-
-  .project-box3 {
-    right: -90%;
-    width: 94.5%;
-  }
-
-  .more-project-mini-section {
-    width: 100%;
-    flex-direction: row;
-    gap: 20px;
-    padding: 10px;
-  }
-
-  /* contect-us-section */
-  .project-section-box-2 {
-    width: 100%;
-    height: 10vh;
-    overflow: hidden;
-    position: relative;
-  }
-
-  #project-text-box-2 {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    display: flex;
-    font-size: 1.1rem;
+  #project-text-box-1 h1 {
+    font-size: 6.5vw;
   }
 
   #project-img-2 {
-    width: 38px;
+    width: 55px;
+  }
+
+  #project-text-box-2 h1 {
+    font-size: 6.5vw;
   }
 }
 
@@ -1340,17 +1013,17 @@ a.clicked {
     position: absolute;
     width: max-content;
     height: max-content;
-    top: 21%;
-    left: 43%;
+    top: 22%;
+    left: 45%;
     z-index: 9;
   }
 
   #back-groung-img img {
-    width: 17.5vw;
+    width: 12vw;
   }
 
   #profile-vector-img img {
-    width: 13vw;
+    width: 9vw;
     border-radius: 50%;
   }
 
@@ -1359,36 +1032,15 @@ a.clicked {
     height: 37px;
   }
 
-  #small-img-project {
-    width: 49px;
-    height: 49px;
-  }
-
-  #small-img-know {
-    width: 49px;
-    height: 49px;
-  }
-
-  #small-img-contact {
-    width: 49px;
-    height: 49px;
-  }
-
   /* name-section */
 
   #welcome-section p {
-    font-size: 6rem;
+    font-size: 4.6rem;
   }
 
   #name-section p {
-    font-size: 2.1rem;
+    font-size: 3vw;
   }
-
-  #download-section #btn {
-    font-size: 1.6rem;
-  }
-
-  /* .about-section */
 
   #about-text {
     font-size: 1.6rem;
@@ -1399,98 +1051,114 @@ a.clicked {
   }
 
   #about-info-container {
-    font-size: 1rem;
+    font-size: 1.6vw;
   }
 
   #git-replit-linkd-section {
-    top: 57%;
-    left: 24%;
+    top: 66.5%;
+    left: 23.5%;
+    font-size: 1.6vw;
+    opacity: 0;
   }
-
-  /* projects */
 
   #project-img {
     width: 59px;
   }
 
-  .left-box {
-    font-size: 1.3rem;
-  }
-
-  .right-box {
-    font-size: 1.3rem;
-  }
-
-  #top-text-porject-2 {
-    font-size: 1.3rem;
-  }
-
-  .micro-project-display {
-    font-size: 1.3rem;
+  #project-text-box h1 {
+    font-size: 5.5vw;
   }
 
   .project-box1 {
+    top: 6%;
     right: -90%;
-    width: 96.3%;
-    padding: 15px;
+    width: 95%;
+    font-size: 1.5vw;
+  }
+
+  .animated-section {
+    width: 100%;
+  }
+
+  .animated-text p {
+    font-size: 8vw;
+  }
+
+  .bottom-link {
+    width: 90px;
+    height: 60px;
+    bottom: -4%;
+    right: -27%;
   }
 
   .project-box2 {
+    top: 6%;
     right: -90%;
-    width: 96.3%;
+    width: 95%;
+    font-size: 1.5vw;
+  }
+
+  #bottom-link-2 {
+    width: 90px;
+    height: 60px;
+    padding: 5px;
+    bottom: -5%;
+    right: -27%;
   }
 
   .project-box3 {
+    top: 6%;
     right: -90%;
-    width: 96.3%;
+    width: 95%;
+    padding: 20px;
+    font-size: 1.5vw;
   }
 
-  .more-project-mini-section {
-    width: 100%;
-    flex-direction: row;
-    gap: 20px;
+  .center-box #animated-text-air p {
+    font-size: 5vw;
+  }
+
+  .micro-project-display {
+    bottom: -1%;
+    right: -1%;
+    width: 70%;
+    height: 70px;
+    font-size: 1.3vw;
     padding: 10px;
+    border: 5px solid #0f172a;
   }
-
-  /* more-project-section */
 
   .more-project-mini-section {
-    flex-direction: row;
-    gap: 20px;
+    width: 90%;
+    height: 60vh;
+    flex-direction: column;
   }
 
-  .more-project-section-left {
-    font-size: 1.2rem;
+  #animated-text-portfolio p {
+    font-size: 6vw;
   }
 
-  .more-project-section-right {
-    font-size: 1.2rem;
+  #animated-text-Notepad-Desktop-App p {
+    font-size: 3vw;
   }
 
   #project-text-box-1 {
-    font-size: 1.6rem;
+    top: 58%;
   }
 
   #project-img-1 {
     width: 59px;
   }
 
-  .what-i-know-box div {
-    padding: 13px;
-    font-size: 1.2rem;
-  }
-
-  /* contect-us-section */
-
-  #project-text-box-2 {
-    font-size: 1.6rem;
+  #project-text-box-1 h1 {
+    font-size: 5.5vw;
   }
 
   #project-img-2 {
-    width: 59px;
+    width: 55px;
   }
 
-  .contact-info-box {
-    font-size: 1.5rem;
+  #project-text-box-2 h1 {
+    font-size: 5.5vw;
   }
 }
