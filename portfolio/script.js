@@ -157,3 +157,20 @@ projectShowcaseBox3();
 whatIKnowAnimation();
 
 contectAnimation();
+
+// ----------------------------------------
+// function more() {
+//   gsap.from(".more-project-mini-section", {
+//     duration: 2,
+//     scrollTrigger: {
+//       trigger: ".box-project-section",
+//       start: "top 91%",
+//       end: "100% 100%",
+//       markers: true,
+//       scrub: 1,
+//     },
+//     scale: 3,
+//   });
+// }
+
+// more();
