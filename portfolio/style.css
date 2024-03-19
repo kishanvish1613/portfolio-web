@@ -654,6 +654,201 @@ a.clicked {
   font-size: 1wv;
 }
 
+@media only screen and (max-width: 374px){
+  #background-img-with-vector-img {
+    top: 25%;
+    left: 40%;
+  }
+
+  #back-groung-img #back-groung-img-back {
+    width: 25vw;
+  }
+
+  #quick-nav-text {
+    top: -35%;
+    left: -20%;
+  }
+
+  #back-groung-img img {
+    width: 18.5vw;
+  }
+
+  #small-img-project {
+    width: 35px;
+    height: 35px;
+  }
+
+  #small-img-know {
+    width: 35px;
+    height: 35px;
+  }
+
+  #small-img-contact {
+    width: 35px;
+    height: 35px;
+  }
+
+  #small-img-project .img-small {
+    width: 4.5vw;
+  }
+
+  #small-img-know .img-small {
+    width: 4.5vw;
+  }
+
+  #small-img-contact .img-small {
+    width: 4.5vw;
+  }
+
+  #welcome-section p {
+    font-size: 15vw;
+  }
+
+  #name-section p {
+    font-size: 5vw;
+  }
+
+  #download-section {
+    position: absolute;
+    bottom: -130%;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-info-container {
+    font-size: 3.5vw;
+  }
+
+  #about-text {
+    font-size: 5vw;
+  }
+
+  #about-img {
+    width: 40px;
+  }
+
+  #git-replit-linkd-section {
+    top: 82%;
+    left: 5%;
+    font-size: 3.5vw;
+    opacity: 0;
+  }
+
+  #project-text-box {
+    font-size: 5vw;
+  }
+
+  #project-img {
+    width: 40px;
+  }
+
+  .project-box1 {
+    right: -90%;
+    width: 90%;
+    height: 80vh;
+  }
+
+  .left-box {
+    height: 8vh;
+    font-size: 2.5vw;
+  }
+
+  .animated-text {
+    font-size: 10.5vw;
+  }
+
+  .live-link {
+    padding: 5px 10px 10px 10px;
+  }
+
+  .live-link a {
+    font-size: 2vw;
+  }
+
+  .right-box {
+    height: 8vh;
+    font-size: 2.5vw;
+  }
+
+  .bottom-link {
+    bottom: -32%;
+    right: -7%;
+  }
+
+  .project-box2 {
+    right: -90%;
+    width: 90%;
+    height: 80vh;
+  }
+
+  .project-box3 {
+    right: -90%;
+    width: 90%;
+    height: 80vh;
+  }
+
+  .animated-text1 {
+    font-size: 9vw;
+  }
+
+  .letter-sm-spacing1 {
+    font-size: 8vw;
+  }
+
+  .box-project-section {
+    font-size: 2.5vw;
+  }
+
+  .more-project-mini-section {
+    flex-direction: column;
+  }
+
+  .more-project-section-center {
+    height: 15vh;
+  }
+
+  .letter-sm-spacing {
+    font-size: 3vw;
+  }
+
+  #project-text-box-1 {
+    top: 62%;
+    left: 5%;
+    font-size: 5vw;
+  }
+
+  #project-img-1 {
+    width: 40px;
+  }
+
+  .what-i-know-section-mini {
+    gap: 4px;
+  }
+
+  .what-i-know-box div {
+    flex-direction: column;
+    font-size: 2.5vw;
+    border-radius: 10px;
+  }
+
+  #project-text-box-2 {
+    font-size: 5vw;
+  }
+
+  #project-img-2 {
+    width: 40px;
+  }
+
+  .contact-info-box {
+    font-size: 2.5vw;
+  }
+}
+
+
+
 @media only screen and (min-width: 375px) and (max-width: 426px) {
   #background-img-with-vector-img {
     top: 25%;
