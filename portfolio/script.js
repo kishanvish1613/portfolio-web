@@ -1,3 +1,9 @@
+// Select project boxes
+const projectBox1 = document.querySelector(".project-box1");
+const projectBox2 = document.querySelector(".project-box2");
+const projectBox3 = document.querySelector(".project-box3");
+
+
 function aboutTextWithImgAni() {
   gsap.from("#about-text", {
     duration: 2,
@@ -111,20 +117,6 @@ function whatIKnowAnimation() {
   });
 }
 
-// function moreProjectSectionAnimation() {
-//   gsap.from(".box-project-section", {
-//     duration: 2,
-//     scrollTrigger: {
-//       trigger: ".box-project-section",
-//       start: "top 95%",
-//       end: "100% 100%",
-//       //markers: true,
-//       scrub: 1,
-//     },
-//     scale: 1.2,
-//     opacity: 0,
-//   });
-// }
 
 function contectAnimation() {
   gsap.from("#project-text-box-2", {
@@ -152,28 +144,11 @@ projectShowcaseBox2();
 
 projectShowcaseBox3();
 
-// moreProjectSectionAnimation();
-
 whatIKnowAnimation();
 
 contectAnimation();
 
-// ----------------------------------------
-// function more() {
-//   gsap.from(".more-project-mini-section", {
-//     duration: 2,
-//     scrollTrigger: {
-//       trigger: ".box-project-section",
-//       start: "top 91%",
-//       end: "100% 100%",
-//       markers: true,
-//       scrub: 1,
-//     },
-//     scale: 3,
-//   });
-// }
 
-// more();
 
 // Function to apply styles
 function applyStyles(elements, styles) {
@@ -211,15 +186,11 @@ function handleMouseOut(event) {
   overflowLink.style.right = "";
 }
 
-// Select project boxes
-const projectBox1 = document.querySelector(".project-box1");
-const projectBox2 = document.querySelector(".project-box2");
-const projectBox3 = document.querySelector(".project-box3");
 
 // Add event listeners
 projectBox1.addEventListener("mouseover", handleMouseOver);
 projectBox1.addEventListener("mouseout", handleMouseOut);
 projectBox2.addEventListener("mouseover", handleMouseOver);
 projectBox2.addEventListener("mouseout", handleMouseOut);
-// projectBox3.addEventListener("mouseover", handleMouseOver);
-// projectBox3.addEventListener("mouseout", handleMouseOut);
+projectBox3.addEventListener("mouseover", handleMouseOver);
+projectBox3.addEventListener("mouseout", handleMouseOut);
