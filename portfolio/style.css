@@ -186,6 +186,7 @@ a.clicked {
 #welcome-section p {
   font-size: 5rem;
   font-family: "Media Sans SemiCondensed";
+  font-family: "Anton", sans-serif;
 }
 
 #name-section p {
